@@ -6,7 +6,7 @@ export const Body = styled.div`
   color: ${(props) => (props.theme == true ? "#4B6A9B" : "#FFFFFF")};
   transition: 0.5s;
 
-  .section1 {
+  .section {
     width: 90%;
     margin: auto;
     max-width: 730px;

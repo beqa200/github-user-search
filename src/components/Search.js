@@ -11,9 +11,14 @@ function Search(props) {
     <SearchBar theme={props.theme}>
       <div className="forFlex1">
         <h1>devfinder</h1>
-        <div className="forFlex2" onClick={() => {props.setTheme(!props.theme)}}>
-          <p className="theme">{props.theme==false ? "LIGHT" : "Dark" }</p>
-          <img src={props.theme==false ? sun : moon} />
+        <div
+          className="forFlex2"
+          onClick={() => {
+            props.setTheme(!props.theme);
+          }}
+        >
+          <p className="theme">{props.theme == false ? "LIGHT" : "Dark"}</p>
+          <img src={props.theme == false ? sun : moon} />
         </div>
       </div>
 
