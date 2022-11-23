@@ -12,7 +12,8 @@ export const UserInfo = styled.div`
       : null};
   .section1 {
     display: flex;
-    width: 110%;
+    width: 100%;
+    margin: 0px;
     align-items: center;
     div {
       margin-left: 10%;
