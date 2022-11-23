@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Code](https://your-solution-url.com)
-- Live Site URL: [Vercel Live](https://your-live-site-url.com)
+- Solution URL: [GitHub Code](https://github.com/beqa200/github-user-search)
+- Live Site URL: [Vercel Live](https://github-user-search-ashy.vercel.app/)
 
 ## My process
 
