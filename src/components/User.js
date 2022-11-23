@@ -23,7 +23,7 @@ function User(props) {
         </div>
       </div>
 
-      <p className="bio">
+      <p className="bio" style={props.bio == null ? { opacity: 0.5 } : null}>
         {props.bio != null ? props.bio : "This profile has no bio"}
       </p>
       <div className="mainInfo">

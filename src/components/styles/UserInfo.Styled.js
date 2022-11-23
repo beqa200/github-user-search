@@ -39,12 +39,20 @@ export const UserInfo = styled.div`
       max-width: 70px;
       max-height: 70px;
       border-radius: 100%;
+      @media (min-width: 550px) {
+        max-width: 117px;
+        max-height: 117px;
+      }
     }
   }
 
   .bio {
     margin-top: 34px;
     font-size: 13px;
+    @media (min-width: 1350px) {
+      margin-left: 175px;
+      margin-top: -50px;
+    }
   }
 
   .mainInfo {
@@ -56,7 +64,9 @@ export const UserInfo = styled.div`
     border-radius: 10px;
     background-color: ${(props) =>
       props.theme == true ? "#F6F8FF" : "#141D2F"};
-
+    @media (min-width: 1350px) {
+      margin-left: 175px;
+    }
     p {
       text-align: center;
     }
@@ -77,6 +87,9 @@ export const UserInfo = styled.div`
   }
 
   .mainInfo2 {
+    @media (min-width: 1350px) {
+      margin-left: 175px;
+    }
     div {
       margin-top: 24px;
 
