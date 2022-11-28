@@ -57,6 +57,6 @@ I improved my skills at ReactJS and styled components. I learned how to pass pro
 
 ## Author
 
-- LinkdIn - [Beqa Maisuradze](https://www.linkedin.com/in/beqa-maisuradze-76a730234/)
+- LinkedIn - [Beqa Maisuradze](https://www.linkedin.com/in/beqa-maisuradze-76a730234/)
 
 
